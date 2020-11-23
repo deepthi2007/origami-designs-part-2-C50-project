@@ -1,0 +1,22 @@
+body{background-color:powderblue}
+img{border-color: mediumvioletred;border-style:ridge;}
+h1{background-color: deeppink;color:palegreen;font-size: 60px;}
+p{color:orangered;font-size:x-large;}
+hr{color:mediumseagreen;border:solid}
+a{color: olivedrab;}
+ol{font-size: 25px;font-style: oblique; color: midnightblue;}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.item{
+    display: flex;
+    justify-content: space-evenly;
+}
